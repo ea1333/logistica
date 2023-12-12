@@ -16,7 +16,7 @@
     <div class=" tarjetas container margin-top-20">
         <!-- Contenido de pagina -->
         <div class="row">
-            <!-- Tarjeta Empleados -->
+            <!-- Tarjeta de Empleados -->
             <?php if($_SESSION['id_rol'] != 1) { ?>
                 <div class="col s12 m4">
                     <div class="card hoverable">
@@ -25,7 +25,7 @@
                         </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Empleados<i class="material-icons right">more_vert</i></span>
-                                <p><a href="empleados.php" class="link">Ver Empleados</a></p>
+                                <p><a href="empleados.php" class="link">Ver empleados</a></p>
                             </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Empleados<i class="material-icons right">close</i></span>
